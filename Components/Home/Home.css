@@ -1,0 +1,28 @@
+.firestation{
+    width: 1450px;
+    min-height: 100vh;
+    background: linear-gradient(rgba(235, 146, 146, 0.7),rgba(79, 55, 239, 0.7)) ,url(../../assets/Firestation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Firestation-text{
+    text-align: center;
+    max-width: 800px;
+
+}
+
+.Firestation-text h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.Firestation-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}

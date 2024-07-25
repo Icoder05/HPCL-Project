@@ -1,0 +1,327 @@
+.tenders{
+    width: 1450px;
+    min-height: 100vh;
+    background: linear-gradient(rgba(235, 146, 146, 0.7),rgba(106, 159, 197, 0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tenders h1{
+    text-align: center;
+    margin-top: 120px;
+}
+.tenders h3{
+    text-align: center;
+    color: #212AE0;
+    text-transform: uppercase;
+}
+.table img{
+    width: 900px;
+    height: 650px;
+    margin: 20px 250px;
+}
+
+.fire img{
+    width: 900px;
+    height: 430px;
+    margin-left: 180px;
+    border-radius: 10px;
+    display: block;
+}
+.fire{
+    flex-basis: 49%;
+    position: relative;
+    
+    }
+.caption{
+    position: absolute;
+    top: 0;
+    left: 180px;
+    bottom: 0;
+    right: 370px;
+    background: rgba(42, 54, 164, 0.791);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s;
+}
+.fire:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+
+}
+.table h2{
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.tenders table{
+   text-align: center;
+   margin: 0 150px;
+    width: 300px;
+}
+
+.types{
+    margin-top: 40px;
+}
+.types h2{
+    text-align: center;
+}
+.water img{
+    
+    justify-content: center;
+}
+
+.water img{
+    margin-left: 250px;
+    height: 450px;
+    width: 900px;
+    display: block;
+}
+.water h4{
+    font-size: large;
+}
+.water{
+    flex-basis: 49%;
+    position: relative;
+}
+.water:hover .caption-1{
+    opacity: 1;
+    padding-top: 0;
+
+}
+
+.caption-1{
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;
+    top:0;
+    left: 250px;
+    bottom: 0;
+    right: 300px;
+    background: rgba(42, 54, 164, 0.791);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.foam img{
+    margin-top: 30px;
+    margin-left: 250px;
+    height: 450px;
+    width: 900px;
+    display: block;
+}
+.foam{
+    flex-basis: 49%;
+    position: relative;
+}
+
+.foam:hover .caption-1{
+    opacity: 1;
+    padding-top: 0;
+
+}
+.description h5{
+    font-size: 25px;
+    color: #000F38;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 400px;
+    max-width: 400px;
+    text-align: center;
+
+}
+.description p{
+    color: #676767;
+    font-size: 18px;
+    margin-left: 380px;
+}
+.operations{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.operations .operations-left{
+    flex-basis: 40%;
+    position: relative;
+}
+
+.operations .operations-right{
+    flex-basis: 56%;
+} 
+.operations h5{
+    font-size: 20px;
+    color: #000F38;
+}
+
+.operations h6{
+    font-size: 20px;
+    color: #000F38;
+    margin-top: 115px;
+} 
+.operations h7{
+    font-size: 16px;
+    color: #212ae0;
+}
+
+.technical h3{
+    font-size: 25px;
+    color: #212AE0;
+}
+.technical p{
+    text-align: center;
+    margin: 0 20px;
+}
+.technical h4{
+    font-size: 20px;
+    margin: 20px 40px;
+}
+.datad{
+    display: flex;
+}
+.datad h5{
+    font-size: 16px;
+    margin: 0 40px;
+}
+
+.datad p{
+    text-align: start;
+}
+
+.parts{
+    margin: 20px auto;
+    display: flex;
+    width: 90%;
+   margin-left: 200px;
+}
+.parts-left img{
+    width: 250px;
+}
+.braker{
+    font-size: 20px;
+    margin-left: 200px;
+    color: #040858;
+    text-transform: uppercase;
+}
+.space{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.size{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.parts-left1 img{
+    height: 250px;
+    width: 300px;
+}
+.space-1{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.dcp img{
+    margin-top: 30px;
+    margin-left: 250px;
+    height: 450px;
+    width: 900px;
+    display: block;
+}
+.dcp{
+    flex-basis: 49%;
+    position: relative;
+}
+
+.dcp:hover .caption-1{
+    opacity: 1;
+    padding-top: 0;
+}
+.view{
+    margin: 30px 250px;
+}
+
+.view-left img{
+    margin-top: 20px;
+    width: 400px;
+}
+
+.view-left .do{
+    margin-left: 40px;   
+}
+
+.view-right img{
+    margin-top: 20px;
+    width: 400px;
+}
+
+.view-right .do{
+    margin-left: 40px;   
+}
+.multipurpose img{
+    margin-top: 30px;
+    margin-left: 250px;
+    height: 450px;
+    width: 900px;
+    display: block;
+}
+.multipurpose{
+    flex-basis: 49%;
+    position: relative;
+}
+
+.multipurpose:hover .caption-1{
+    opacity: 1;
+    padding-top: 0;
+}
+.tables h2{
+    margin-top: 10px;
+}
+.tables img{
+    margin-left: 450px;
+}
+
+.equipmetska h2{
+    margin-top: 10px;
+
+}
+.equipmetska img{
+    justify-content: center;
+    margin-left: 350px;
+
+}
+.divider img{
+    margin-left: 350px;
+}
+
+.equipmenttruck img{
+    margin-top: 30px;
+    margin-left: 250px;
+    height: 450px;
+    width: 900px;
+    display: block;
+}
+.equipmenttruck{
+    flex-basis: 49%;
+    position: relative;
+}
+.equipmenttruck .caption-1 li{
+    margin-left: 100px;
+}
+
+.equipmenttruck:hover .caption-1{
+    opacity: 1;
+    padding-top: 0;
+}
